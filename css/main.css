@@ -38,6 +38,7 @@ body {
 
 .name {
 	font-weight: 400;
+	font-family: 'Open Sans' !important;
 }
 .title {
 	font-weight: 300;
