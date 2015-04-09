@@ -3,3 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link href="css/flipclock.css" rel="stylesheet">
+	<title>Countdown</title>
+</head>
+<body>
+<div class="clock"></div>
+<script src="js/jquery.js"></script>
+<script src="js/flipclock.min.js"></script>
+<script>
+	var clock = $('.clock').FlipClock({
+		clockFace: 'DailyCounter',
+		cowntdown: true
+	});
+</script>
+</body>
+</html>
