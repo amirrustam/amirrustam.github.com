@@ -1,0 +1,81 @@
+body {
+	background-color: #f9f9f7;
+	font-family: 'Open Sans';
+}
+
+.userprofile {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.mypic {
+    border-radius: 100px;
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0px 0px 0px 4px #4b4b4b, 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 200px;
+    behavior: url(/js/PIE.htc);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.intro {
+	color: #333332;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.section {
+	color: #333332;
+	text-align: center;
+	font-weight: 600;
+	font-size: 36px;
+}
+
+.name {
+	font-weight: 400;
+	font-family: 'Open Sans' !important;
+}
+.title {
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom: 40px; 
+}
+.status {
+	font-size: 26px;
+	line-height: 40px;
+}
+
+p.contact {
+	margin-top: 40px;
+	margin-bottom: 500px;
+	text-align: center;
+	font-size: 18px;
+}
+
+p.contact a {
+	color: #7c7c7b;
+	font-weight: 700;
+	margin-right: 30px;
+}
+
+p.contact a:hover {
+	color: #333332;
+	text-decoration: none;
+}
+
+#work-and-i {
+	margin-bottom: 1000px;
+}
+
+.to-top {
+	color:#6cbe71;
+}
+
+.to-top i {
+	margin-right:5px;
+}

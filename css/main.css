@@ -1,81 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Averia+Libre:400,300,700italic);
+
 body {
-	background-color: #f9f9f7;
-	font-family: 'Open Sans';
+    background-color: #f1f1f1;
 }
 
-.userprofile {
-    padding: 20px 0px 0px 0px;
-    text-align: center;
-    list-style-type: none;
+p {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.1em;
+}
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    p {
+        font-size: 1.5em;
+    }
 }
 
-.mypic {
-    border-radius: 100px;
-    position: relative;
-    display: block;
-    margin: 10px auto;
-    box-shadow: 0px 0px 0px 4px #4b4b4b, 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
-    width: 200px;
-    height: 200px;
-    behavior: url(/js/PIE.htc);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+.container {
+    margin-top: 5%;
+    max-width: 500px;
+}
+
+.logo {
+    font-family: 'Averia Libre', cursive;
+    color: #F44336;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .intro {
-	color: #333332;
-	text-align: center;
-	margin-bottom: 50px;
+    font-family: 'Averia Libre', cursive;
+    font-weight: 400;
 }
 
-.section {
-	color: #333332;
-	text-align: center;
-	font-weight: 600;
-	font-size: 36px;
+.card {
+    color: white;
+    font-family: 'Averia Libre', cursive;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    width: 92%;
+    height: 100px;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 3px 1px rgba(224,224,224,0.5);
+    -moz-box-shadow: 0px 1px 3px 1px rgba(224,224,224,0.5);
+    box-shadow: 0px 1px 3px 1px rgba(224,224,224,0.5)
 }
 
-.name {
-	font-weight: 400;
-	font-family: 'Open Sans' !important;
-}
-.title {
-	font-weight: 300;
-	font-style: italic;
-	margin-bottom: 40px; 
-}
-.status {
-	font-size: 26px;
-	line-height: 40px;
+a.card-link {
+    text-decoration: none;
 }
 
-p.contact {
-	margin-top: 40px;
-	margin-bottom: 500px;
-	text-align: center;
-	font-size: 18px;
+.card span {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1px;
 }
 
-p.contact a {
-	color: #7c7c7b;
-	font-weight: 700;
-	margin-right: 30px;
+.card.writing {
+    background-image: url('../img/writing.jpg');
+    background-size: 100%;
+}
+.card.reading {
+    background-image: url('../img/reading_color.jpg');
+    background-size: 100%;
+}
+.card.astro {
+    background-image: url('../img/astrophotography.jpg');
+    background-size: 100%;
 }
 
-p.contact a:hover {
-	color: #333332;
-	text-decoration: none;
-}
-
-#work-and-i {
-	margin-bottom: 1000px;
-}
-
-.to-top {
-	color:#6cbe71;
-}
-
-.to-top i {
-	margin-right:5px;
+footer {
+    text-align: center;
+    margin-bottom: 20px;
 }
