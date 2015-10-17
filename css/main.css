@@ -58,15 +58,15 @@ a.card-link {
 }
 
 .card.writing {
-    background-image: url('../img/writing.jpg');
+    background-image: url('/img/writing.jpg');
     background-size: 100%;
 }
 .card.reading {
-    background-image: url('../img/reading_color.jpg');
+    background-image: url('/img/reading_color.jpg');
     background-size: 100%;
 }
 .card.astro {
-    background-image: url('../img/astrophotography.jpg');
+    background-image: url('/img/astrophotography.jpg');
     background-size: 100%;
 }
 
